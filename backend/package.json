@@ -7,7 +7,7 @@
   "license": "UNLICENSED",
   "scripts": {
     "dev": "ts-node -r tsconfig-paths/register src/main.ts",
-    "build": "rimraf dist tsconfig.tsbuildinfo && tsc -p tsconfig.json",
+    "build": "tsc -p tsconfig.json",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "start": "node dist/main",
     "start:dev": "ts-node -r tsconfig-paths/register src/main.ts",
