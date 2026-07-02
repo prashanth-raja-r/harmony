@@ -2,7 +2,6 @@
   "compilerOptions": {
     "module": "commonjs",
     "moduleResolution": "node10",
-    "ignoreDeprecations": "6.0",
     "esModuleInterop": true,
     "declaration": true,
     "removeComments": true,
